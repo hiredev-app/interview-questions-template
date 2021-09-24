@@ -41,29 +41,32 @@ questions:
 ## How does hire.dev question repositories work?
 
 ```
-+------------------------+                          +--------------------------------------+            
-|                        |                          |                                      |            
-|  Questions repository  ------------------------------------+    hire.dev                 |            
-|  no.1                  |                          |        |                             |            
-|                        |                          |  +-----|-----+                       |            
-|  + questions.yaml      |   hire.dev pulls         |  |           |                       |            
-+------------------------+   data from the repo     |  |           |                       |            
-|  |           |                       |            
-|  | Company's |                       |            
-+------------------------+                          |  | question  |    Job Pipeline       |            
-|                        |                          |  | database  |    of a specific      |            
-|  Questions repository  +-----------------------------|           |    interview          |            
-|  no. 2                 |                          |  |           |    +-----------------+|            
-|                        |                          |  +-----|-----+    | Introduction    ||            
-|  + questions.yaml      |                          |        |          +-----------------+|            
-+------------------------+                          |        |          +-----------------+|            
-|        +----------- Questions block ||            
-|  A subset of      +-----------------+|            
-|  questions        +-----------------+|            
-|  is chosen for    | Online meeting  ||            
-|  each individual  +-----------------+|            
-|  job type         +-----------------+|            
-|                   | Final block     ||            
-|                   +-----------------+|            
-+--------------------------------------+ 
+                                                                                                      
+                                                                                                      
+                                            +--------------------------------------+                  
++-------------------+                       |                                      |                  
+|Questions repository -------------------------------+    hire.dev                 |                  
+|no.1               |                       |        |                             |                  
+|                   |  hire.dev pulls       |  +-----|-----+                       |                  
+|+ questions.yaml   |  data from the repo   |  |           |                       |                  
++-------------------+                       |  |           |                       |                  
+                                            |  |           |                       |                  
+                                            |  | Company's |                       |                  
+                                            |  | question  |    Job Pipeline       |                  
++-------------------+                       |  | database  |    of a specific      |                  
+|Questions repository--------------------------|           |    interview          |                  
+|no. 2              |                       |  |           |    +-----------------+|                  
+|                   |                       |  +-----|-----+    | Introduction    ||                  
+|+ questions.yaml   |                       |        |          +-----------------+|                  
++-------------------+                       |        |          +-----------------+|                  
+                                            |        +----------- Questions block ||                  
+                                            |  A subset of      +-----------------+|                  
+                                            |  questions        +-----------------+|                  
+                                            |  is chosen for    | Online meeting  ||                  
+                                            |  each individual  +-----------------+|                  
+                                            |  job type         +-----------------+|                  
+                                            |                   | Final block     ||                  
+                                            |                   +-----------------+|                  
+                                            +--------------------------------------+                  
+                                                                                           
 ```

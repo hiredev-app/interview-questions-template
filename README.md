@@ -1,3 +1,6 @@
+![Image header](https://github.com/hiredev-app/interview-questions-template/blob/main/image-header.png?raw=true)
+
+
 # [hire.dev] - Interview Questions Template
 
 This is a template repository you can use to create your own questions

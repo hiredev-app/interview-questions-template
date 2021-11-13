@@ -25,7 +25,7 @@ GitHub in form of a simple YAML file.
 
 ## Schema
 
-```
+```yaml
 questions:
 - title: {question_name}
   type: {full_text,single_choice,multi_choice}
